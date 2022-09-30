@@ -4,14 +4,16 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
    http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
 
+    <display-name>Web Application</display-name>
+
+    <servlet>
+        <servlet-name>BasicServlet</servlet-name>
+        <servlet-class>ru.servlet.BasicServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>BasicServlet</servlet-name>
         <url-pattern>/basic_servlet</url-pattern>
     </servlet-mapping>
-<servlet>
-    <servlet-name>BasicServlet</servlet-name>
-    <servlet-class>ru.servlet.BasicServlet</servlet-class>
-</servlet>
 
 
 </web-app>
