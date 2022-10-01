@@ -7,11 +7,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.example</groupId>
-  <artifactId>SpringBasic</artifactId>
+  <artifactId>JavaEEBasic</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
-  <name>SpringBasic Maven Webapp</name>
+  <name>JavaEEBasic Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -48,7 +48,7 @@
   </dependencies>
 
   <build>
-    <finalName>SpringBasic</finalName>
+    <finalName>JavaEEBasic</finalName>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>

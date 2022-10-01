@@ -1,2 +1,8 @@
-ru\servlet\SomeHttpServlet.class
+ru\servlet\ProductServlet.class
+model\Cat.class
 ru\servlet\BasicServlet.class
+model\Product.class
+ru\servlet\SomeHttpServlet.class
+ru\servlet\CatServlet.class
+model\Product$ProductBuilder.class
+model\Cat$CatBuilder.class
