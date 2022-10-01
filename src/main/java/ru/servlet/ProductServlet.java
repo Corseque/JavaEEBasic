@@ -17,8 +17,8 @@ import java.util.Random;
 @WebServlet(name = "ProductServlet", urlPatterns = "/products")
 public class ProductServlet extends HttpServlet {
 
-    private static Logger logger = LoggerFactory.getLogger(BasicServlet.class);
-    private List<Product> products = new ArrayList<>();
+    private static final Logger logger = LoggerFactory.getLogger(BasicServlet.class);
+    private final List<Product> products = new ArrayList<>();
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
